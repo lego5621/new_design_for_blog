@@ -1,0 +1,24 @@
+:root{
+    --color_1:rgb(8, 8, 8);
+    --color_2:rgb(202, 202, 202);
+    --color_3:#848484;
+    --placeholder_color: rgb(100, 100, 100);
+}
+
+
+/* Устанавливаем везде фон */
+html,.menu_left_panel, .menu_right_panel, .content-wrap {
+    background: var(--color_1) !important;
+}
+
+/* цвет заголовков и жирного*/
+*{
+    color:var(--color_2) !important;
+}
+
+/* цвет обычного текста */
+/* p, li, ul, .grean, th, td{
+    color:var(--text_plain) !important;
+} */
+
+
